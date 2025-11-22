@@ -70,7 +70,6 @@ def crear_indice_vectorial():
   collection.create_search_index(model=search_index_model)
   time.sleep(20)
 
-crear_indice_vectorial()
 # =======================
 # BACKBLAZE CONEXIONES
 # =======================
